@@ -27,3 +27,5 @@ def now_serving(customers)
   end
   customers
 end
+
+now_serving(katz_deli)
