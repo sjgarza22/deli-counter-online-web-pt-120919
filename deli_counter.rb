@@ -21,7 +21,7 @@ end
 
 def now_serving(customers)
   if customers.length > 0
-    customers.
+    customers.shift
 end
 
 katz_deli << "Ada"
