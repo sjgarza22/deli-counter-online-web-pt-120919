@@ -27,7 +27,3 @@ def now_serving(customers)
     "There is nobody waiting to be served!"
   end
 end
-
-katz_deli << "Ada"
-katz_deli << "Robby"
-line(katz_deli)
