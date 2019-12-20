@@ -15,7 +15,7 @@ end
 
 def take_a_number(customers, name)
   customers << name
-  puts "#{name}. You are number #{customers.index("name") + 1} in line."
+  puts "#{name}. You are number #{customers.index(name) + 1} in line."
   customers
 end
 
