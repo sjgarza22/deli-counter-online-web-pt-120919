@@ -1,5 +1,6 @@
 # Write your code here.
 katz_deli = []
+
 def line(customers)
   if customers.length > 0
     string = "The line is currently:"
@@ -12,7 +13,9 @@ def line(customers)
   end
 end
 
-
+def take_a_number(current_line, customer)
+  
+end
 
 katz_deli << "Ada"
 katz_deli << "Robby"
