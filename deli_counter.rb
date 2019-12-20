@@ -15,7 +15,13 @@ end
 
 def take_a_number(customers, name)
   customers << name
-  
+  puts "#{name}. You are number #{customers.index("name") + 1} in line."
+  customers
+end
+
+def now_serving(customers)
+  if customers.length > 0
+    customers.
 end
 
 katz_deli << "Ada"
